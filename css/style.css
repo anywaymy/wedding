@@ -364,6 +364,12 @@ form {
     transition: opacity 0.7s linear;
 }
 
+.loader__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .loader__text {
     display: flex;
 }
@@ -371,6 +377,7 @@ form {
 .loader__text span {
     overflow: hidden;
     display: inline-block;
+    margin-left: 7px;
     width: 22%;
     animation: dots 2s infinite linear;
 }
