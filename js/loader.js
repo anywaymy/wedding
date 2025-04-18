@@ -1,9 +1,1 @@
-document.addEventListener('DOMContentLoaded', () => {
-    setTimeout(() => {
-        let loader = document.querySelector('.loader');
-        let body = document.querySelector('body');
-        body.style.overflowY="visible";
-        loader.classList.add('disabled');
-        AOS.refresh();
-    },3000);
-})
+document.addEventListener("DOMContentLoaded",()=>{setTimeout(()=>{let e=document.querySelector(".loader");document.querySelector("body").style.overflowY="visible",e.classList.add("disabled"),AOS.refresh()},3e3)});
