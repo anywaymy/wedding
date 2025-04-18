@@ -59,7 +59,7 @@ body {
     align-items: center;
     justify-content: space-around;
     padding: 0 10px;
-    background-image: url("../img/bg1.avif");
+    background-image: url("../img/bg1.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -231,7 +231,7 @@ body {
     height: 100%;
     width: 100%;
     margin-bottom: 40px;
-    background-image: linear-gradient(to top, white, transparent 0%, transparent 20%, white), linear-gradient(to bottom, white, transparent 0%, transparent 70%, white) , url("../img/bg2.avif");
+    background-image: linear-gradient(to top, white, transparent 0%, transparent 20%, white), linear-gradient(to bottom, white, transparent 0%, transparent 70%, white) , url("../img/bg2.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }
