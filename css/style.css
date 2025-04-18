@@ -287,6 +287,10 @@ body {
     z-index: 0;
 }
 
+.program__text {
+    max-width: 190px;
+}
+
 .program .title {
     max-width: 320px;
     margin-bottom: 10px;
@@ -324,6 +328,10 @@ form .input {
     margin-bottom: 30px;
 }
 
+.text--small {
+    font-size: 17px;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -349,6 +357,7 @@ form {
 .form .button {
     width: auto;
     padding: 10px 10px;
+    margin-bottom: 30px;
 }
 
 .loader {
@@ -461,6 +470,10 @@ form {
         font-size: 22px;
     }
 
+    .text--small {
+        font-size: 16px;
+    }
+
     .timer {
         width: 290px;
     }
@@ -496,6 +509,9 @@ form {
 
     .text {
         font-size: 19px;
+    }
+    .text--small {
+        font-size: 15px;
     }
 
     .program .title {
@@ -536,6 +552,10 @@ form {
 
     .program__column {
         font-size: 14px;
+    }
+
+    .program__text {
+        max-width: 170px;
     }
 
 }
