@@ -173,13 +173,8 @@
                 body.style.overflowY="visible";
                 loader.classList.add('disabled');
                 AOS.refresh();
-                loader.style.zIndex ="-10"
+                loader.style.left = "-120%"
             },3000);
-
-            setTimeout(() => {
-                let loader = document.querySelector('.loader');
-                loader.style.zIndex ="-10"
-            }, 200);
         })
     </script>
 </body>
