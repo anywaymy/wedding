@@ -121,7 +121,7 @@
                                 <div class="program__dot"></div>
                             </div>
                             <div class="program__column">
-                                <div class="program__text" data-aos="fade-left" data-aos-duration="1400">Сбор гостей</div>
+                                <div class="program__text" data-aos="fade-left" data-aos-duration="1400">трансфер из Котово до места регистрации</div>
                                 <div class="program__text" data-aos="fade-left" data-aos-duration="1600">Церемония</div>
                                 <div class="program__text" data-aos="fade-left" data-aos-duration="1800">Банкет</div>
                                 <div class="program__text" data-aos="fade-left" data-aos-duration="2000">Завершение</div>
@@ -150,22 +150,15 @@
                 <button  class="button" type="submit" data-aos="fade-right" data-aos-duration="1500">
                     <a href="https://t.me/ksenia33261" target="_blank" >подтвердить</a>
                 </button>
+                <p class="text text--small" data-aos="fade-left" data-aos-duration="2000">Просьба дать ответ до 1 июня!</p>
             </section>
         </div>
     </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="js/timer.js" ></script>
+    <script src="js/loader.js"></script>
+    <script src="js/timer.js"></script>
     <script>
         AOS.init();
-        document.addEventListener('DOMContentLoaded', () => {
-            setTimeout(() => {
-                let loader = document.querySelector('.loader');
-                let body = document.querySelector('body');
-                body.style.overflowY="visible";
-                loader.classList.add('disabled');
-                AOS.refresh();
-            },3000);
-        })
     </script>
 </body>
 </html>
