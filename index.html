@@ -22,6 +22,11 @@
                     </div>
                 </div>
             </div>
+            <div class="click-audio">
+                <p>Нажмите</p>
+                <p>В любое место</p>
+                <p>На экране</p>
+            </div>
             <section class="main">
                     <div class="content">
                         <div class="content-info">
@@ -67,7 +72,7 @@
                         <p>поделимся частичкой нашего счастья</p>
                     </div>
             </section>
-            <section class="date">
+            <section class="date" id="audio">
                 <div class="date__content" >
                     <div class="date__left date__common" data-aos="fade-right" data-aos-duration="2000">
                         четверг
@@ -152,12 +157,25 @@
                 </button>
                 <p class="text text--small" data-aos="fade-left" data-aos-duration="2000">Просьба дать ответ до 1 июня!</p>
             </section>
+
+            <audio autoplay loop id="play-audio">
+                <source src="audio/audio2.mp3" type="audio/mp3">
+                Ваш браузер не поддерживает аудиовоспроизведение.
+            </audio>
         </div>
     </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/loader.js"></script>
     <script src="js/timer.js"></script>
     <script>
+        let clickAudio = document.querySelector(".click-audio");
+        clickAudio.addEventListener('click', () => {
+            let playAudio = document.getElementById("play-audio");
+            clickAudio.classList.add("disabled");
+            playAudio.play();
+            playAudio.volume = 0.060;
+        });
+
         AOS.init();
     </script>
 </body>
