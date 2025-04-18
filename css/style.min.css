@@ -59,7 +59,7 @@ body {
     align-items: center;
     justify-content: space-around;
     padding: 0 10px;
-    background-image: url("../img/bg1.jpeg");
+    background-image: url("../img/bg1.avif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -231,7 +231,7 @@ body {
     height: 100%;
     width: 100%;
     margin-bottom: 40px;
-    background-image: linear-gradient(to top, white, transparent 0%, transparent 20%, white), linear-gradient(to bottom, white, transparent 0%, transparent 70%, white) , url("../img/bg2.jpeg");
+    background-image: linear-gradient(to top, white, transparent 0%, transparent 20%, white), linear-gradient(to bottom, white, transparent 0%, transparent 70%, white) , url("../img/bg2.avif");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -405,6 +405,19 @@ form {
     line-height: 1.8;
 }
 
+.disable-audio {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    padding: 15px 10px;
+    border: 1px solid #000000;
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 9;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
 .loader__text {
     display: flex;
 }
@@ -550,6 +563,10 @@ form {
 
     .timer .title--size {
         font-size: 24px;
+    }
+
+    .click-audio {
+        font-size: 30px;
     }
 }
 
