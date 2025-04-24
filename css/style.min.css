@@ -164,6 +164,7 @@ body {
 .date__content {
     display: flex;
     align-items: center;
+    margin-bottom: 70px;
 }
 
 .date__center {
@@ -244,7 +245,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 110px;
+    margin-top: 70px;
 }
 
 .zig-zag {
