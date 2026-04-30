@@ -74,7 +74,7 @@ body {
     text-align: center;
 }
 
-.content-info_title {
+.content-info__title {
     font-family: "ofont", sans-serif;
     font-size: 32px;
     font-weight: 600;
@@ -472,7 +472,7 @@ form {
 
 
 @media (max-width: 750px) {
-    .content-info_title {
+    .content-info__title {
         font-size: 28px;
     }
 
@@ -490,7 +490,7 @@ form {
 }
 
 @media (max-width: 620px) {
-    .content-info_title {
+    .content-info__title {
         font-size: 24px;
     }
 
@@ -532,7 +532,7 @@ form {
 }
 
 @media (max-width: 530px) {
-    .content-info_title {
+    .content-info__title {
         font-size: 22px;
     }
 
@@ -572,7 +572,7 @@ form {
 }
 
 @media (max-width: 445px) {
-    .content-info_title {
+    .content-info__title {
         font-size: 20px;
     }
 
