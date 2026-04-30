@@ -354,7 +354,7 @@ form {
 }
 
 .button {
-    width:100%;
+    width: 100%;
     padding: 10px 0;
     color: #808080;
     background-color: transparent;
@@ -365,6 +365,11 @@ form {
     width: auto;
     padding: 10px 10px;
     margin-bottom: 30px;
+    color: #000000;
+}
+
+.form .button:hover {
+    opacity: 0.6;
 }
 
 .loader {
